@@ -27,6 +27,10 @@ export class CustomMap {
   }
 
   addMarker(mappable: Mappable): void {
+
+    // const pinBackground = new google.maps.pinEle({
+    //   background: '#FBBC04',
+    // });
     const marker = new google.maps.Marker({
       map: this.googleMap,
       position: {
